@@ -38,7 +38,7 @@ do
   if [ "$STATUS" != "Already up to date." ]; then
     cargo clean
   fi
-  $COMMAND & sleep 1800; kill -INT $!
+  $COMMAND & sleep 21800; kill -INT $!
 
   sleep 2;
 done
